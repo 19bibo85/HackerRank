@@ -5,7 +5,7 @@ for _ in range(n):
     scores = list(map(float, line))
     student_marks[name] = scores
 query_name = input()
-
+    
 scores = student_marks[query_name]
 sum = sum(scores)
 count = len(scores)
