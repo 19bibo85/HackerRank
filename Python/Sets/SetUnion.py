@@ -1,0 +1,6 @@
+n = int(input())
+x = set(map(int, input().split()))
+m = int(input())
+y = set(map(int, input().split()))
+z = x.union(y)
+print(len(z))
